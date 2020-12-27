@@ -1,0 +1,38 @@
+.basic-info__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+}
+
+.basic-img__container {
+    width: 458px;
+
+}
+
+.basic-img__container img {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.basic-info__title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.basic-info__desc {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.basic-img__container-small {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.basic-info__desc-small {
+    font-size: 1.7rem;
+}

@@ -1,0 +1,11 @@
+.room-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.room-form .btn {
+    margin-top: 50px;
+    font-size: 1.8rem;
+    padding: 10px;
+}

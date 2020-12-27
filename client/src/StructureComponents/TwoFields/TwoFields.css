@@ -1,0 +1,38 @@
+.fix-layout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+
+.two-fields {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 30px;
+    height: 300px;
+}
+
+.field-1, .field-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 80px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    resize: none;
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.field-1 {
+    font-size: 2rem;
+}

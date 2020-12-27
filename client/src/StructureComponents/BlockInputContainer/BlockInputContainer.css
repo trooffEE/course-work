@@ -1,0 +1,26 @@
+.BlockInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.blockInput-img-container {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.blockInput-img-container img {
+    max-width: 100%;
+}
+
+.textarea {
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    resize: none;
+    border: 4px solid var(--primary-purple);
+    padding: 15px 15px;
+    color: black;
+    font-size: 1.5rem;
+}

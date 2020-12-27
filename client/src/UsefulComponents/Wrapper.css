@@ -1,0 +1,13 @@
+.wrapper {
+    /* all screen - header - footer*/
+    position: relative;
+    height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px); /* wholePage - header*/
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    overflow: hidden;
+}

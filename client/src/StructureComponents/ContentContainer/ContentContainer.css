@@ -1,0 +1,27 @@
+.content-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: 15px solid var(--primary-purple);
+    border-radius: 95px;
+    width: 845px;
+    max-width: 100% / 2;
+    padding: 30px 0;
+    margin: 50px 0;
+    min-height: 150px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.content-container__title {
+    position: absolute;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0 10px;
+    background-color: var(--primary-purple);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

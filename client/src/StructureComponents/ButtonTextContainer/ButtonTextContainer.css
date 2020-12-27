@@ -1,0 +1,21 @@
+.content-btn-img__container {
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    margin: 0 40px;
+    column-gap: 20px;
+}
+
+.content-btn-img__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgitelf {
+    max-width: 100%;
+}
+
+.textOfButtonContainer {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}

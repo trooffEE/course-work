@@ -1,0 +1,9 @@
+.form .btn-long {
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

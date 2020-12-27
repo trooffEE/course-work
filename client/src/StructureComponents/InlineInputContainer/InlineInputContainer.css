@@ -1,0 +1,14 @@
+.input-inline {
+    max-width: 880px;
+    width: 100%;
+    height: 85px;
+    border-radius: 35px;
+    border: 4px solid var(--primary-purple);
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px 15px
+}
+
+.input-inline::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}

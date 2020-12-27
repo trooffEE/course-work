@@ -1,0 +1,9 @@
+.badImage-fix {
+    background-color: white;
+    border-radius: 50%;
+    border: 6px solid #707070;
+}
+
+.content-btn-img__container:not(:last-child) {
+    margin-bottom: 15px;
+}

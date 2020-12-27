@@ -1,0 +1,24 @@
+.btn {
+    background-color: transparent;
+    font-size: 1.3rem;
+    border: 5px solid white;
+    border-radius: 35px;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px 0;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    color: white;
+    background-color: var(--primary-purple);
+}
+
+.btn:active {
+    transition: all 75ms ease-in-out;
+    color: black;
+    background-color: white;
+    border-color: var(--primary-purple);
+}
